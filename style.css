@@ -1,12 +1,10 @@
 .cabeçalho { 
     border-style: solid;
-    border-width: 7px; 
+    border-width: 10px; 
     border-bottom-width: 0;
     border-right-width: 0;
     border-left-width: 0;
     border-color: #7174a3;
-    
-
 }
 
 #menu ul{
@@ -14,7 +12,6 @@
     margin: 0px;
     background-color: #ededed;
     list-style: none;
-
 }
 
 #menu ul li a { 
@@ -23,14 +20,14 @@
     background-color:#EDEDED; 
     color: #333; 
     text-decoration: none; 
-    border-bottom:3px solid #EDEDED; 
+    border-bottom:3px solid #EDEDED;
 }
 
 #menu ul li a:hover { 
     background-color:#D6D6D6;
     color: #6D6D6D;
     border-bottom:3px solid #4a506f;
-  }
+}
 
 #menu ul li{
     display: inline;
@@ -38,24 +35,36 @@
 
 .titulo{
     color:rgb(0, 0, 0);
-    font-size: 36px;
+    font-size: 40px arial;
+    margin: 20px;
 }
 .texto{
-    font-size: 15px;
+    text-align: justify;
+    margin: 20px;
+    font-size: arial 15px;
     color:black
-
+    
 }
 
 .direitos{
-    text-indent: 40%;
+    text-indent: 45%;
     font-size: 12px;
     color:black
-
 }
 
-body{
-    max-width: 60%;
+body{ 
     margin: 0 auto;
+    max-width: 67%
 }
 
+.imagem{
+    margin: auto;
+    margin-top: 0.50%;
+    display: block;
+}
 
+.imag{
+    margin: 0.50%;
+    margin-top: 0.50%;
+    display: block;
+}
